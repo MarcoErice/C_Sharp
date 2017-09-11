@@ -22,5 +22,17 @@ namespace MultiplierLib
             }
             return total;
         }
+
+        public long UsingWhile(long first, long second)
+        {
+            long total = 0;
+            long loopVar = 0;
+            while(loopVar < first)
+            {
+                total += second;
+                loopVar++;
+            }
+            return total;
+        }
     }
 }
