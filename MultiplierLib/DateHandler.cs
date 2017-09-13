@@ -10,12 +10,14 @@ namespace MultiplierLib
     {
         public int DaysBetweenDates(DateTime firstDate, DateTime secondDate)
         {
-            return 0;
+            var timeSpan = secondDate - firstDate;
+            return timeSpan.Days;
         }
 
         public DateTime Add1000Days(DateTime theDate)
         {
-            return DateTime.Now;
+            var addDays = theDate.AddDays(1000);
+            return addDays;
         }
     }
 }
