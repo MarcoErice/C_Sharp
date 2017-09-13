@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileConversionTests.cs" />
     <Compile Include="PurchaseCalculationTests.cs" />
+    <Compile Include="StorytellerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
