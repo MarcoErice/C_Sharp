@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateHandlerTests.cs" />
     <Compile Include="ListHandlerTests.cs" />
     <Compile Include="MultiplierTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
