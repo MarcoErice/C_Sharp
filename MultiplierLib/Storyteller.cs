@@ -10,7 +10,8 @@ namespace MultiplierLib
     {
         public string TellStory(string nameOfChild, int ageOfChild, bool willBeScary)
         {
-            
+            if (ageOfChild < 5 && willBeScary)
+                throw new InvalidOperationException();
             string story = "";
             if (ageOfChild < 7)
             {

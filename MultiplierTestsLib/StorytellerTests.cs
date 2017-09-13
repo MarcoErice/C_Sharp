@@ -49,5 +49,16 @@ namespace MultiplierTestsLib
             // Assert
             Assert.AreEqual("Hallå Marco! En gång fanns en kille " + "som egentligen var en varulv", actual);
         }
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void TellStoryToYoungScary()
+        {
+            // Arrange
+            var sut = new Storyteller();
+            // Act
+            var actual = sut.TellStory("Sofia", 4, true);
+            // Assert
+            // Assert.AreEqual("Hallå Marco! En gång fanns en kille " + "som egentligen var en varulv", actual);
+        }
     }
 }
