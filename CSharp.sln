@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{AB97D397-A6B1-49F9-94E3-3128C3ED6F76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierLib", "MultiplierLib\MultiplierLib.csproj", "{CFB973AE-9DC5-4B51-A8F4-64266BF374FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgTestsLib", "VarukorgTestsLib\VarukorgTestsLib.csproj", "{B4D283A5-144F-4A3E-9E01-120C6ADFD20F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VarukorgLib", "VarukorgLib\VarukorgLib.csproj", "{EFFA1FC2-79EF-4976-81A0-FD8A87274A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017-09-18", "2017-09-18", "{3394449D-043A-4723-A274-033B3FD5F8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorytellerWindowsApp", "StorytellerWindowsApp\StorytellerWindowsApp.csproj", "{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,26 @@ Global
 		{CFB973AE-9DC5-4B51-A8F4-64266BF374FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB973AE-9DC5-4B51-A8F4-64266BF374FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB973AE-9DC5-4B51-A8F4-64266BF374FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D283A5-144F-4A3E-9E01-120C6ADFD20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D283A5-144F-4A3E-9E01-120C6ADFD20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D283A5-144F-4A3E-9E01-120C6ADFD20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D283A5-144F-4A3E-9E01-120C6ADFD20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFA1FC2-79EF-4976-81A0-FD8A87274A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFA1FC2-79EF-4976-81A0-FD8A87274A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFA1FC2-79EF-4976-81A0-FD8A87274A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFA1FC2-79EF-4976-81A0-FD8A87274A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D591C79B-89EB-4263-A0B5-EE20EBCE8B5A} = {3394449D-043A-4723-A274-033B3FD5F8CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5EEF65D-5502-4919-8C6D-48E825D3CBBB}
 	EndGlobalSection
 EndGlobal
