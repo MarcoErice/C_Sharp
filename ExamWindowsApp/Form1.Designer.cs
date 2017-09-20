@@ -55,7 +55,7 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Information";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+          //  this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnAssign
             // 
