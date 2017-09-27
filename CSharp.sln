@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConsoleApp", "OOPConsole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuilderApp", "CarBuilderApp\CarBuilderApp.csproj", "{6D383CE5-09D2-4CEB-A191-8ED5BF02F333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentCountApp", "StudentCountApp\StudentCountApp.csproj", "{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{6D383CE5-09D2-4CEB-A191-8ED5BF02F333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D383CE5-09D2-4CEB-A191-8ED5BF02F333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D383CE5-09D2-4CEB-A191-8ED5BF02F333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{984444D2-9DDA-48C0-A986-8FC5CD016BCA} = {8D2D5F78-AA41-4946-9B2C-90C8AB72B4BF}
 		{BBE5D72A-970D-46D9-A754-D0C88917FBAB} = {930A9AF0-8E6F-4DF6-83B2-63DAB51CDCAE}
 		{6D383CE5-09D2-4CEB-A191-8ED5BF02F333} = {930A9AF0-8E6F-4DF6-83B2-63DAB51CDCAE}
+		{57D27E37-FCA2-4FCD-BC0F-EC9F676A5A69} = {930A9AF0-8E6F-4DF6-83B2-63DAB51CDCAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5EEF65D-5502-4919-8C6D-48E825D3CBBB}
