@@ -5,11 +5,11 @@ namespace StudentCountApp
 {
     internal class School
     {
-        private string name;
+        private string nameOfSchool;
 
-        public School(string name)
+        public School(string nameOfSchool)
         {
-            this.name = name;
+            this.nameOfSchool = nameOfSchool;
         }
 
         public List<Class> Classes { get; internal set; }
@@ -23,7 +23,7 @@ namespace StudentCountApp
         }
         public override string ToString()
         {
-            return this.name;
+            return this.nameOfSchool;
         }
     }
 
