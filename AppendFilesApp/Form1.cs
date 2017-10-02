@@ -31,14 +31,12 @@ namespace AppendFilesApp
         private void button3_Click(object sender, EventArgs e)
         {
             saveFileDialog1.ShowDialog();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
             var firstTextFile = File.ReadAllText(openFileDialog1.FileName);
             var secondTextFile = File.ReadAllText(openFileDialog2.FileName);
             File.AppendAllText(saveFileDialog1.FileName, firstTextFile);
             File.AppendAllText(saveFileDialog1.FileName, secondTextFile);
         }
+
+       
     }
 }
