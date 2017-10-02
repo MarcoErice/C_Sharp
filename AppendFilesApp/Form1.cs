@@ -37,6 +37,19 @@ namespace AppendFilesApp
             File.AppendAllText(saveFileDialog1.FileName, secondTextFile);
         }
 
-       
+        private void button4_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+            var path = folderBrowserDialog1.SelectedPath;
+            foreach (var fileName in Directory.GetFiles(path, "*.docx"))
+            {
+                comboBox1.Items.Add(fileName);
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
