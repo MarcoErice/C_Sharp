@@ -14,10 +14,11 @@ namespace PersonNumberTestsLib
             var sut = new PersonNumber();
 
             // Act
-            sut.calculateLastDigit("780622929");
+            sut.Process("780622929");
+            var expected = "5";
 
             // Assert
-            Assert.AreEqual("5", sut.LastDigit);
+            Assert.AreEqual(expected, sut.LastDigit);
 
 
         }
