@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87A6BE47-6366-4C49-97E5-4BDD4A0E05E8}</ProjectGuid>
+    <ProjectGuid>{5AC34390-54FB-49D0-89E2-B945C2B23A36}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GuessNumberGui</RootNamespace>
-    <AssemblyName>GuessNumberGui</AssemblyName>
+    <RootNamespace>PersonNumberGui</RootNamespace>
+    <AssemblyName>PersonNumberGui</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -79,9 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiceGameLib\DiceGameLib.csproj">
-      <Project>{984444d2-9dda-48c0-a986-8fc5cd016bca}</Project>
-      <Name>DiceGameLib</Name>
+    <ProjectReference Include="..\PersonNumberLib\PersonNumberLib.csproj">
+      <Project>{7b73fca4-c6bf-4603-8a0d-178a9cfe988b}</Project>
+      <Name>PersonNumberLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
