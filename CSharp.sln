@@ -95,6 +95,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SIEImport", "SIEImport", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIEImportTests", "SIEImportTests\SIEImportTests.csproj", "{4DCD485F-8E70-44C9-B95A-9C8843E3F6B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLib", "AccountLib\AccountLib.csproj", "{0E82416B-CA19-4FDE-8C84-CCB859E08246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{4DCD485F-8E70-44C9-B95A-9C8843E3F6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCD485F-8E70-44C9-B95A-9C8843E3F6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCD485F-8E70-44C9-B95A-9C8843E3F6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E82416B-CA19-4FDE-8C84-CCB859E08246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E82416B-CA19-4FDE-8C84-CCB859E08246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E82416B-CA19-4FDE-8C84-CCB859E08246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E82416B-CA19-4FDE-8C84-CCB859E08246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -257,6 +263,7 @@ Global
 		{59408B4D-33C9-4A77-A966-9C1606A2C0F2} = {E5E56293-8A16-4EE8-9CE1-A9980C75C937}
 		{6BC229B8-F778-4BFB-B9CF-322DEAAE193B} = {E5E56293-8A16-4EE8-9CE1-A9980C75C937}
 		{4DCD485F-8E70-44C9-B95A-9C8843E3F6B6} = {EF6ABF6C-193D-4970-BD7E-A6F0ABB8C05E}
+		{0E82416B-CA19-4FDE-8C84-CCB859E08246} = {EF6ABF6C-193D-4970-BD7E-A6F0ABB8C05E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5EEF65D-5502-4919-8C6D-48E825D3CBBB}
