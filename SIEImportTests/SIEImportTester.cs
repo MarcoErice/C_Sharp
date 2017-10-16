@@ -85,7 +85,7 @@ namespace SIEImportTests
             string pattern = @"#VER";
             var sut = new RegexMatchCounter();
             var lineCount = sut.CountMatchingLines(content, pattern);
-            Assert.AreEqual(66, lineCount);
+            Assert.AreEqual(165, lineCount);
         }
     }
 }
