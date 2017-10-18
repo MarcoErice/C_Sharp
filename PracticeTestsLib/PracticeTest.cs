@@ -24,9 +24,9 @@ namespace PracticeTestsLib
             // Arrange
             var sut = new Practice();
             // Act
-            var actual = ;
+            var actual = sut.FullText("1978-06-22","Marco Erice","076-2135921");
             // Assert
-            Assert.AreEqual("1978-09-22;Marco Erice;076-2135921.", text);
+            Assert.AreEqual("1978-06-22; Marco Erice; 076-2135921.", actual);
         }
     }
 }
