@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{AB97D397-A6B1-49F9-94E3-3128C3ED6F76}"
 EndProject
@@ -105,7 +105,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalLib", "DriverJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalApp", "DriverJournalApp\DriverJournalApp.csproj", "{017AD012-3304-4883-92C4-23AC36C9066C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice1", "Practice1", "{F985542D-A026-4391-A794-E34477F26E96}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeApp", "PracticeApp", "{F985542D-A026-4391-A794-E34477F26E96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeTestsLib", "PracticeTestsLib\PracticeTestsLib.csproj", "{A6DF898D-B148-4208-BA6D-1F8D2E31DFE4}"
 EndProject
