@@ -113,6 +113,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeLib", "PracticeLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeApp", "PracticeApp\PracticeApp.csproj", "{6C391B31-FDB1-4467-B2B5-78B309AF8E23}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DagisApp", "DagisApp", "{C385CB5D-D87E-483F-B3B4-DE89A2D8505C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DagisAppen", "DagisAppen\DagisAppen.csproj", "{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +275,10 @@ Global
 		{6C391B31-FDB1-4467-B2B5-78B309AF8E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C391B31-FDB1-4467-B2B5-78B309AF8E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C391B31-FDB1-4467-B2B5-78B309AF8E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +318,7 @@ Global
 		{A6DF898D-B148-4208-BA6D-1F8D2E31DFE4} = {F985542D-A026-4391-A794-E34477F26E96}
 		{6A1D879E-D918-4481-B24A-B018D928752A} = {F985542D-A026-4391-A794-E34477F26E96}
 		{6C391B31-FDB1-4467-B2B5-78B309AF8E23} = {F985542D-A026-4391-A794-E34477F26E96}
+		{136C1E1C-2C6D-4034-9AEC-BF703E8E37C9} = {C385CB5D-D87E-483F-B3B4-DE89A2D8505C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5EEF65D-5502-4919-8C6D-48E825D3CBBB}
