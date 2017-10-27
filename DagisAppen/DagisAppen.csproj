@@ -45,9 +45,12 @@
     <Compile Include="Blyboll.cs" />
     <Compile Include="Boll.cs" />
     <Compile Include="ICircular.cs" />
+    <Compile Include="IRectangular.cs" />
     <Compile Include="Klossbräda.cs" />
+    <Compile Include="Kon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rektangel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

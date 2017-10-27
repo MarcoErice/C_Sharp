@@ -1,6 +1,6 @@
 ﻿namespace DagisAppen
 {
-    internal class Blyboll
+    internal class Blyboll : ICircular
     {
         public Blyboll()
         {

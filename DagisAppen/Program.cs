@@ -11,10 +11,14 @@ namespace DagisAppen
         static void Main(string[] args)
         {
             var klossbräda = new Klossbräda();
+            var rektangel = new Rektangel();
+            klossbräda.Accept(rektangel);
             var blyboll = new Blyboll();
-            klossbräda.Acceptera(blyboll);
+            klossbräda.Accept(blyboll);
             var boll = new Boll();
-            klossbräda.Acceptera(boll);
+            klossbräda.Accept(boll);
+            var kon = new Kon();
+            klossbräda.Accept(kon);
         }
     }
 }

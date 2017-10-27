@@ -8,15 +8,17 @@ namespace DagisAppen
         {
         }
 
-        internal void Acceptera(ICircular circularObject)
+      
+        internal void Accept(ICircular circularObject)
         {
-            Console.WriteLine("En boll har passerat");
-            Console.ReadLine();
+            Console.WriteLine("Ett cirkulär objekt har passerat");
+            
         }
 
-        internal void Acceptera(Blyboll blyboll)
+        internal void Accept(IRectangular rectangularObject)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ett rektangulär objekt har passerat");
+            
         }
     }
 }
