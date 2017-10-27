@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace FakturaLib
 {
-    public class Class1
+    public class Part
     {
+        public string Namn { get; set; }
+        public string JuridiskId { get; set; }
     }
 }
