@@ -125,6 +125,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakturaLib", "FakturaLib\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakturaWinApp", "FakturaWinApp\FakturaWinApp.csproj", "{457C1048-936F-4126-8ACC-AF5DB51D190F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open2FilesAndConvert", "Open2FilesAndConvert", "{76EDDED9-9FEE-483C-B2B3-65B1C02F1B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFilesTests", "OpenFilesTests\OpenFilesTests.csproj", "{EC820389-4239-4BDE-BF14-7E66E34257EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -299,6 +303,10 @@ Global
 		{457C1048-936F-4126-8ACC-AF5DB51D190F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457C1048-936F-4126-8ACC-AF5DB51D190F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457C1048-936F-4126-8ACC-AF5DB51D190F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC820389-4239-4BDE-BF14-7E66E34257EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC820389-4239-4BDE-BF14-7E66E34257EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC820389-4239-4BDE-BF14-7E66E34257EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC820389-4239-4BDE-BF14-7E66E34257EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -342,6 +350,7 @@ Global
 		{9934635D-4DF6-4EB7-AA66-195D194B3F1F} = {7E55B315-AD82-4595-BDBB-0D100DFCE643}
 		{245E0698-9DE1-4380-AA68-46E95317DE1F} = {7E55B315-AD82-4595-BDBB-0D100DFCE643}
 		{457C1048-936F-4126-8ACC-AF5DB51D190F} = {7E55B315-AD82-4595-BDBB-0D100DFCE643}
+		{EC820389-4239-4BDE-BF14-7E66E34257EB} = {76EDDED9-9FEE-483C-B2B3-65B1C02F1B4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5EEF65D-5502-4919-8C6D-48E825D3CBBB}
