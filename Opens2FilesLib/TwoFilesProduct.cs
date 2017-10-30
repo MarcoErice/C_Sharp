@@ -10,7 +10,7 @@ namespace Opens2FilesLib
 {
     public class TwoFilesProduct
     {
-       public string Product(string amountFile, string qtyFile)
+       public static string Product(string amountFile, string qtyFile)
         {
             StringReader firstStrReader = new StringReader(amountFile);
             string amountLine, qtyLine, output = "";
