@@ -19,7 +19,7 @@ namespace OpenFilesLib
             var secondFile = Console.ReadLine(); // C:\Users\marco\Desktop\SecondFile.txt
             var qtyContent = File.ReadAllText(secondFile);
             
-            var twoFilesProduct = new TwoFilesProduct();
+            var twoFilesProduct = TwoFilesProduct();
            
             Console.WriteLine($"{twoFilesProduct.Product(amountContent,qtyContent)}\n");
             Console.ReadLine();
