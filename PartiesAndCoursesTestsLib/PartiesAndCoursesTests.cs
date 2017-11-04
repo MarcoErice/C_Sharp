@@ -61,6 +61,8 @@ namespace PartiesAndCoursesTestsLib
         public void AllCourseTestWithParties()
         {
             var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
+            var courses = "C#;2018-01-01;2018-02-05\nSQL;2018-02-10;2018-03-25\nMVC;2018-04-01;2018-05-15";
+           
             var partiesLines = parties.Split('\n');
             var cSharpAlumnies = "";
             var sqlAlumnies = "";
@@ -98,26 +100,22 @@ namespace PartiesAndCoursesTestsLib
             cSharpAlumnies = cSharpAlumnies.Substring(0, cSharpAlumnies.Length - 2);
             sqlAlumnies = sqlAlumnies.Substring(0, sqlAlumnies.Length - 2);
             mvcAlumnies = mvcAlumnies.Substring(0, mvcAlumnies.Length - 2);
-            var cSharpCourseData = "C#;2018-01-01;2018-02-05";
-            var sqlCourseData = "SQL;2018-02-10;2018-03-25";
-            var mvcCourseData = "MVC;2018-04-01;2018-05-15";
 
-            var cSharpTokens = cSharpCourseData.Split(';');
-            var cSharpCourse = cSharpTokens[0];
-            var cSharpEndDate = cSharpTokens[2];
-            var cSharpStartDate = cSharpTokens[1];
+            var courseTokens = courses.Split(';'); 
+                        
+            var cSharpCourse = courseTokens[0];
+            var cSharpEndDate = courseTokens[2];
+            var cSharpStartDate = courseTokens[1];
             var cSharpDateDifferens = DateTime.Parse(cSharpEndDate) - DateTime.Parse(cSharpStartDate);
-
-            var sqlTokens = sqlCourseData.Split(';');
-            var sqlCourse = sqlTokens[0];
-            var sqlEndDate = sqlTokens[2];
-            var sqlStartDate = sqlTokens[1];
+            
+            var sqlCourse = courseTokens[3];
+            var sqlEndDate = courseTokens[5];
+            var sqlStartDate = courseTokens[4];
             var sqlDateDifferens = DateTime.Parse(sqlEndDate) - DateTime.Parse(sqlStartDate);
-
-            var mvcTokens = mvcCourseData.Split(';');
-            var mvcCourse = mvcTokens[0];
-            var mvcEndDate = mvcTokens[2];
-            var mvcStartDate = mvcTokens[1];
+            
+            var mvcCourse = courseTokens[6];
+            var mvcEndDate = courseTokens[8];
+            var mvcStartDate = courseTokens[7];
             var mvcDateDifferens = DateTime.Parse(mvcEndDate) - DateTime.Parse(mvcStartDate);
 
             var actual = $"Kursen {cSharpCourse} pågår i {cSharpDateDifferens.TotalDays} dagar med följande deltagare:\n{cSharpAlumnies}\n\n" +
@@ -137,9 +135,8 @@ namespace PartiesAndCoursesTestsLib
         {
             
             var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
-            var cSharpCourseData = "C#;2018-01-01;2018-02-05";
-            var sqlCourseData = "SQL;2018-02-10;2018-03-25";
-            var mvcCourseData = "MVC;2018-04-01;2018-05-15";
+            var courses = "C#;2018-01-01;2018-02-05\nSQL;2018-02-10;2018-03-25\nMVC;2018-04-01;2018-05-15";
+
 
             PartiesAndCoursesTransformation.Transformation();
 
