@@ -132,15 +132,12 @@ namespace PartiesAndCoursesTestsLib
 
         [TestMethod]
         public void AllCourseTestWithPartiesUsingClassLib()
-        {
-            
+        {            
             var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
             var courses = "C#;2018-01-01;2018-02-05\nSQL;2018-02-10;2018-03-25\nMVC;2018-04-01;2018-05-15";
 
+            var actual = PartiesAndCoursesTransformation.Transformation(parties, courses);
 
-            PartiesAndCoursesTransformation.Transformation();
-
-            
             var expected = "Kursen C# pågår i 35 dagar med följande deltagare:\nAlice, Carol\n\n" +
                 "Kursen SQL pågår i 43 dagar med följande deltagare:\nAlice, Bob\n\n" +
                 "Kursen MVC pågår i 44 dagar med följande deltagare:\nCarol";
