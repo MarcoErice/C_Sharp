@@ -61,7 +61,7 @@ namespace PartiesAndCoursesTestsLib
         public void AllCourseTestWithParties()
         {
             var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
-            var courses = "C#;2018-01-01;2018-02-05\nSQL;2018-02-10;2018-03-25\nMVC;2018-04-01;2018-05-15";
+            var courses = "C#;2018-01-01;2018-02-05;SQL;2018-02-10;2018-03-25;MVC;2018-04-01;2018-05-15";
            
             var partiesLines = parties.Split('\n');
             var cSharpAlumnies = "";
@@ -134,7 +134,7 @@ namespace PartiesAndCoursesTestsLib
         public void AllCourseTestWithPartiesUsingClassLib()
         {            
             var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
-            var courses = "C#;2018-01-01;2018-02-05\nSQL;2018-02-10;2018-03-25\nMVC;2018-04-01;2018-05-15";
+            var courses = "C#;2018-01-01;2018-02-05;SQL;2018-02-10;2018-03-25;MVC;2018-04-01;2018-05-15";
 
             var actual = PartiesAndCoursesTransformation.Transformation(parties, courses);
 
