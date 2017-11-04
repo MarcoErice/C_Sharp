@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using System.Linq;
+using PartiesAndCoursesLib;
 
 namespace PartiesAndCoursesTestsLib
 {
@@ -123,6 +124,26 @@ namespace PartiesAndCoursesTestsLib
                 $"Kursen {sqlCourse} pågår i {sqlDateDifferens.TotalDays} dagar med följande deltagare:\n{sqlAlumnies}\n\n" +
                 $"Kursen {mvcCourse} pågår i {mvcDateDifferens.TotalDays} dagar med följande deltagare:\n{mvcAlumnies}";
 
+            var expected = "Kursen C# pågår i 35 dagar med följande deltagare:\nAlice, Carol\n\n" +
+                "Kursen SQL pågår i 43 dagar med följande deltagare:\nAlice, Bob\n\n" +
+                "Kursen MVC pågår i 44 dagar med följande deltagare:\nCarol";
+
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [TestMethod]
+        public void AllCourseTestWithPartiesUsingClassLib()
+        {
+            
+            var parties = "Alice;C#;SQL\nBob;SQL\nCarol;MVC;C#";
+            var cSharpCourseData = "C#;2018-01-01;2018-02-05";
+            var sqlCourseData = "SQL;2018-02-10;2018-03-25";
+            var mvcCourseData = "MVC;2018-04-01;2018-05-15";
+
+            PartiesAndCoursesTransformation.Transformation();
+
+            
             var expected = "Kursen C# pågår i 35 dagar med följande deltagare:\nAlice, Carol\n\n" +
                 "Kursen SQL pågår i 43 dagar med följande deltagare:\nAlice, Bob\n\n" +
                 "Kursen MVC pågår i 44 dagar med följande deltagare:\nCarol";
